@@ -13,7 +13,7 @@ public class P1 {
         System.out.println("Welcome to this Program. \t In this program you can calculate the area of any Regular geometry Shape.");
         System.out.println("Do you want to continue ?\t Type [Y] for yes and [N] for No");
         try {
-            ch = scr.next().charAt(0);
+            ch = scr.next().charAt(1);
             if (ch == 'N' || ch == 'n') {
                 System.out.println("Thank you!! \t I hope you will like our another service ");
                 System.exit(0);
